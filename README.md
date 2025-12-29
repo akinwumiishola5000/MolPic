@@ -59,7 +59,7 @@ from IPython.display import SVG, display
 display(SVG("panel.svg"))
  ```
 
-**Step 4: Create a publication-ready multi-panel figure for 20 compounds**
+## Create a publication-ready multi-panel figure for 20 compounds**
 ```bash
 !molpic grid Aspirin Caffeine Ibuprofen Acetaminophen Warfarin Naproxen Diclofenac\
  Ketoprofen Celecoxib Indomethacin Lidocaine Procaine Metformin Atorvastatin Simvastatin\
