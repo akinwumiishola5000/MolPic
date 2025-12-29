@@ -41,17 +41,13 @@ display(SVG("aspirin.svg"))
 
 **Step 3: Create a publication-ready multi-panel figure**
 ```bash
-!molpic grid Aspirin Caffeine Ibuprofen Warfarin Naproxen Acetaminophen \
-  --grid 2x3 \
-  -o panel.svg \
-  --no-h \
-  --title "Figure 1. Example panel of drug molecules" \
-  --caption-file figure1_caption.txt \
-  --order-by name
+!molpic grid acetaminophen aspirin caffeine ibuprofen warfarin naproxen \
+  --grid 2x3 -o panel.svg --no-h
  ```
 
 **Display**
 ```bash
+from IPython.display import SVG, display
 display(SVG("panel.svg"))
  ```
 
