@@ -7,13 +7,21 @@ It is designed for computational drug discovery, chemoinformatics, and scientifi
 ## Key Features
 -Generate SVG molecule images from:
 -**SMILES strings**
+
 -**Compound names** (resolved automatically via PubChem)
+
 -Multi-panel figures for papers and slides (--grid 2x3)
+
 -Batch processing from CSV files
+
 -Automatic compound labels under each structure
+
 -Optional figure titles and caption text files
+
 -Remove explicit hydrogens for clean publication figures (--no-h)
+
 -Designed for Google Colab, Linux, and macOS
+
 -Fully open-source and citable
 
 ## Quick Start (Google Colab – Recommended)
