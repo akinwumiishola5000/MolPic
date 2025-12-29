@@ -2,7 +2,7 @@
 # Name/SMILES → Publication-Ready Molecular Figures
 
 MolPic is an open-source cheminformatics tool that generates high-quality 2D molecular figures directly from compound names or SMILES, with support for multi-panel (grid) figures, batch processing, and automatic figure captions.
-It is designed for computational drug discovery, cheminformatics, and scientific publishing, where fast and reproducible generation of clean molecular figures is essential.
+It is designed for computational drug discovery, chemoinformatics, and scientific publishing, where fast and reproducible generation of clean molecular figures is essential.
 
 ## Key Features
 -Generate SVG or PNG molecule images from:
@@ -38,6 +38,7 @@ It is designed for computational drug discovery, cheminformatics, and scientific
 from IPython.display import SVG, display
 display(SVG("aspirin.svg"))
  ```
+
 **Step 3: Create a publication-ready multi-panel figure**
 ```bash
 !molpic grid Aspirin Caffeine Ibuprofen Warfarin Naproxen Acetaminophen \
@@ -48,6 +49,7 @@ display(SVG("aspirin.svg"))
   --caption-file figure1_caption.txt \
   --order-by name
  ```
+
 **Display**
 ```bash
 display(SVG("panel.svg"))
@@ -61,6 +63,7 @@ conda activate molpic
 conda install -c conda-forge rdkit -y
 pip install git+https://github.com/akinwumiishola5000/MolPic.git
  ```
+
 **Test**
 ```bash
 molpic generate "ibuprofen" -o ibuprofen.svg --no-h
