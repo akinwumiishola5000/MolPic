@@ -5,7 +5,7 @@ MolPic is an open-source cheminformatics tool that generates high-quality 2D mol
 It is designed for computational drug discovery, chemoinformatics, and scientific publishing, where fast and reproducible generation of clean molecular figures is essential.
 
 ## Key Features
--Generate SVG or PNG molecule images from:
+-Generate SVG molecule images from:
 -**SMILES strings**
 -**Compound names** (resolved automatically via PubChem)
 -Multi-panel figures for papers and slides (--grid 2x3)
