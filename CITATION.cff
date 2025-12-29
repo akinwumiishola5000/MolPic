@@ -1,11 +1,14 @@
 cff-version: 1.2.0
+title: MolPic: Name/SMILES to Publication-Ready Molecular Figures
 message: "If you use MolPic in your research, please cite it."
 type: software
 title: "MolPic: Name/SMILES to Publication-Ready Molecule Figures"
 authors:
   - family-names: "Akinwumi"
     given-names: "Ishola Abeeb"
-version: 0.2.0
+    email: isholaab@buffalo.edu
+    affiliation: University at Buffalo
+version: 0.2.1
 date-released: "2025-12-28"
 url: "https://github.com/akinwumiishola5000/MolPic"
 keywords:
