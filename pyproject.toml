@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "molpic"
+version = "0.1.0"
+description = "Generate publication-ready molecule images from SMILES or compound names."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ishola Abeeb Akinwumi" }]
+dependencies = [
+  "typer>=0.12.0",
+  "rich>=13.0.0",
+  "pandas>=2.0.0",
+  "pubchempy>=1.0.4",
+  "rdkit>=2023.9.0"
+]
+
+[project.scripts]
+molpic = "molpic.cli:main"
+molpic-batch = "molpic.cli:batch_main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/molpic"]
