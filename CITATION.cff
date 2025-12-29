@@ -8,6 +8,7 @@ authors:
     email: "isholaab@buffalo.edu"
     affiliation: "University at Buffalo"
 repository-code: "https://github.com/akinwumiishola5000/MolPic"
+doi: "10.5281/zenodo.18089336"
 license: "MIT"
 version: "0.2.2"
 date-released: "2025-12-29"
