@@ -33,7 +33,7 @@ It is designed for computational drug discovery, chemoinformatics, and scientifi
 **Step 1: Install MolPic directly from GitHub**
 ```bash
 !pip -q install rdkit pubchempy typer rich pandas
-!pip -q install git+https://github.com/akinwumiishola5000/MolPic.git
+!pip -q install --upgrade git+https://github.com/akinwumiishola5000/MolPic.git
  ```
 
 **Step 2: Generate a single molecule figure**
