@@ -141,9 +141,13 @@ molpic generate "ibuprofen" -o ibuprofen.svg --no-h
 
 ## Typical Use Cases
 **Preparing figure panels for manuscripts and theses**
+
 **Rapid visualization during virtual screening**
-**Teaching cheminformatics and drug design**
+
+**Teaching chemoinformatics and drug design**
+
 **Standardizing molecule depiction across projects**
+
 **Generating consistent graphics for presentations**
 
 
